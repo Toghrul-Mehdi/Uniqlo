@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Program.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Program.cs",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Program.cs",
+              "RelativeToolTip": "Uniqlo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:17:04.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml*",
+              "RelativeToolTip": "Uniqlo\\Views\\Contact\\Index.cshtml*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:13:28.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml*",
+              "RelativeToolTip": "Uniqlo\\Views\\About\\Index.cshtml*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwDoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:13:04.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Uniqlo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:11:42.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:05:05.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:04:53.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:04:33.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
