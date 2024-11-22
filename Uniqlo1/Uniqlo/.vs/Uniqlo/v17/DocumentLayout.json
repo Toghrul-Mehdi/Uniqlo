@@ -1,34 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\",
+  "WorkspaceRootPath": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\migrations\\20241122083640_createdsliderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\migrations\\20241122083640_createdsliderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\uniqlo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\uniqlo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\source\\repos\\uniqlo\\uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +70,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Program.cs",
-              "RelativeDocumentMoniker": "Uniqlo\\Program.cs",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Program.cs",
-              "RelativeToolTip": "Uniqlo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:17:04.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqlo\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "Uniqlo\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwD4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:13:28.101Z",
+              "Title": "20241122083640_CreatedSlidersTable.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Migrations\\20241122083640_CreatedSlidersTable.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Migrations\\20241122083640_CreatedSlidersTable.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Migrations\\20241122083640_CreatedSlidersTable.cs",
+              "RelativeToolTip": "Uniqlo\\Migrations\\20241122083640_CreatedSlidersTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:36:40.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqlo\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "Uniqlo\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwEYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:13:04.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqlo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Uniqlo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:11:42.8Z",
-              "EditorCaption": ""
+              "Title": "UniqloDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\DataAccess\\UniqloDbContext.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\DataAccess\\UniqloDbContext.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\DataAccess\\UniqloDbContext.cs",
+              "RelativeToolTip": "Uniqlo\\DataAccess\\UniqloDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:31:15.755Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Uniqlo\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Models\\Slider.cs",
+              "RelativeToolTip": "Uniqlo\\Models\\Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:05:05.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T08:24:27.351Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AboutController.cs",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
-              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\AboutController.cs",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
-              "RelativeToolTip": "Uniqlo\\Controllers\\AboutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Uniqlo\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:04:53.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T08:18:08.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Uniqlo\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T08:01:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Uniqlo\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:00:34.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Uniqlo.csproj",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Uniqlo.csproj",
+              "RelativeDocumentMoniker": "Uniqlo\\Uniqlo.csproj",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Uniqlo.csproj",
+              "RelativeToolTip": "Uniqlo\\Uniqlo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T07:55:46.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Uniqlo\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Uniqlo\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-22T07:56:20.989Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Victus\\source\\repos\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Uniqlo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Program.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Program.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Program.cs",
+              "RelativeToolTip": "Uniqlo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:04:33.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T23:17:04.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Uniqlo\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:13:28.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Uniqlo\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwEYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:13:04.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Uniqlo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:11:42.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:05:05.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:04:53.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Uniqlo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Uniqlo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:04:33.95Z"
             }
           ]
         }
