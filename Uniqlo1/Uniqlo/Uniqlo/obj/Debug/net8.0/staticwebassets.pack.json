@@ -8329,6 +8329,50 @@
       "PackagePath": "staticwebassets\\assets\\style.css"
     },
     {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\3l4wlbcz.ytk.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\3l4wlbcz.ytk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\4v3iorjp.qdz.png",
+      "PackagePath": "staticwebassets\\img\\sliders\\4v3iorjp.qdz.png"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\aizghzks.uwm.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\aizghzks.uwm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\bmfz4run.uqb.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\bmfz4run.uqb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\d00o0uo1.ozc.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\d00o0uo1.ozc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\d4vgs5yd.qff.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\d4vgs5yd.qff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\ej50v0bw.r4z.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliders\\ej50v0bw.r4z.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\kghxdu5v.vtr.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\kghxdu5v.vtr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\qbn2nuaf.awd.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\qbn2nuaf.awd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\wnourew1.lc0.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\wnourew1.lc0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Victus\\OneDrive\\İş masası\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\wwwroot\\img\\sliders\\zeewcde4.y0c.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\zeewcde4.y0c.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Uniqlo.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
