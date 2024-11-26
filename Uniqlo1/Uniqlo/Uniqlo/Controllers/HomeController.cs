@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Uniqlo.DataAccess;
+using Uniqlo.ViewModels.Common;
+using Uniqlo.ViewModels.Product;
 using Uniqlo.ViewModels.Slider;
 
 namespace Uniqlo.Controllers
@@ -9,16 +11,28 @@ namespace Uniqlo.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            var datas =await _context.Sliders
-                .Where(x=>!x.IsDeleted)
-                .Select(x=> new SliderItemVM
+            HomeVM vm = new HomeVM();
+            vm.Sliders = await _context.Sliders
+                .Where(x => !x.IsDeleted)
+                .Select(x => new SliderItemVM
                 {
                     ImageUrl = x.ImageUrl,
-                    Link = x.Link, 
+                    Link = x.Link,
                     Subtitle = x.Description,
                     Title = x.Title,
                 }).ToListAsync();
-            return View(datas);
+            vm.Products = await _context.Products
+                .Where(x => !x.IsDeleted)
+                .Select(x => new ProductItemVM
+                {
+                    Id = x.Id,
+                    Name = x.ProductName,
+                    Price = x.SellPrice,
+                    Discount = x.Discount,
+                    ImageUrl = x.CoverImage,
+                    IsInStock = x.Quantity > 0
+                }).ToListAsync();
+            return View(vm);
         }
         public IActionResult About()
         {

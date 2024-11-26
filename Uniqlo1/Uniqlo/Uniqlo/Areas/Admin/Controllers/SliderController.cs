@@ -23,8 +23,8 @@ namespace Uniqlo.Areas.Admin.Controllers
         {
             if (!vm.File.ContentType.StartsWith("image"))
                 ModelState.AddModelError("File", "File type must be image");
-            if (vm.File.Length > 600 * 1024)
-                ModelState.AddModelError("File", "File length must be less than 600kb");
+            if (vm.File.Length > 2 * 1024 * 1024)
+                ModelState.AddModelError("File", "File length must be less than 2Mb");
             if (!ModelState.IsValid) return View();
 
             string newFileName = Path.GetRandomFileName() + Path.GetExtension(vm.File.FileName);
@@ -61,9 +61,9 @@ namespace Uniqlo.Areas.Admin.Controllers
                 return View();
             }
 
-            if (vm.File.Length > 5 * 1024 * 1024)
+            if (vm.File.Length > 2 * 1024 * 1024)
             {
-                ModelState.AddModelError("File", "File size must be less than 5MB");
+                ModelState.AddModelError("File", "File size must be less than 2MB");
                 return View();
             }
 
