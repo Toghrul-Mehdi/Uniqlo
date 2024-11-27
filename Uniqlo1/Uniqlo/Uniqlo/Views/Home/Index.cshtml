@@ -36,7 +36,7 @@
 
 <body>
     <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <!-- Body main wrapper start -->
     <div class="wrapper fixed__footer">
@@ -63,7 +63,7 @@
                                     <li>
                                         <a href="/About">About</a>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="/Contact">Contact</a>
                                     </li>
@@ -358,8 +358,18 @@
                                     <div class="product__details">
                                         <h2><a href="product-details.html">@item.Name</a></h2>
                                         <ul class="product__price">
-                                            <li class="old__price">@item.Price</li>
-                                            <li class="new__price">@item.Price</li>
+
+                                            @if (item.Discount > 0) 
+                                            {
+                                                var a =(@item.Price * @item.Discount)/100;
+                                                <li class="old__price">@item.Price</li> 
+                                                <li class="new__price">@a AZN</li>
+                                            }
+                                            @if (item.Discount ==0)
+                                            {
+                                                <li class="new__price">@item.Price AZN</li>                                                
+                                            }
+
                                         </ul>
                                     </div>
                                 </div>
