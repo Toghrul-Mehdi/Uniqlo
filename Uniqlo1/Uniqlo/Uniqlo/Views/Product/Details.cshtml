@@ -1,0 +1,352 @@
+﻿@using Uniqlo.Models
+@model Product
+@{
+    ViewData["Title"] = Model.ProductName;
+    var rating = Model.ProductRatings.Count > 0 ? Model.ProductRatings.Average(x => x.RatingRate) : 0;
+}
+<div class="body__overlay"></div>
+<!-- Start Offset Wrapper -->
+<div class="offset__wrapper">
+    <!-- Start Search Popap -->
+    <div class="search__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="search__inner">
+                        <form action="#" method="get">
+                            <input placeholder="Search here... " type="text">
+                            <button type="submit"></button>
+                        </form>
+                        <div class="search__close__btn">
+                            <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Search Popap -->
+    <!-- Start Offset MEnu -->
+    <div class="offsetmenu">
+        <div class="offsetmenu__inner">
+            <div class="offsetmenu__close__btn">
+                <a href="#"><i class="zmdi zmdi-close"></i></a>
+            </div>
+            <div class="off__contact">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo/uniqlo.png" alt="logo">
+                    </a>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetu adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <ul class="sidebar__thumd">
+                <li><a href="#"><img src="images/sidebar-img/1.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/2.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/3.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/4.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/5.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/6.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/7.jpg" alt="sidebar images"></a></li>
+                <li><a href="#"><img src="images/sidebar-img/8.jpg" alt="sidebar images"></a></li>
+            </ul>
+            <div class="offset__widget">
+                <div class="offset__single">
+                    <h4 class="offset__title">Language</h4>
+                    <ul>
+                        <li><a href="#"> Engish </a></li>
+                        <li><a href="#"> French </a></li>
+                        <li><a href="#"> German </a></li>
+                    </ul>
+                </div>
+                <div class="offset__single">
+                    <h4 class="offset__title">Currencies</h4>
+                    <ul>
+                        <li><a href="#"> USD : Dollar </a></li>
+                        <li><a href="#"> EUR : Euro </a></li>
+                        <li><a href="#"> POU : Pound </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offset__sosial__share">
+                <h4 class="offset__title">Follow Us On Social</h4>
+                <ul class="off__soaial__link">
+                    <li><a class="bg--twitter" href="https://twitter.com/devitemsllc" target="_blank" title="Twitter"><i class="zmdi zmdi-twitter"></i></a></li>
+
+                    <li><a class="bg--instagram" href="https://www.instagram.com/devitems/" target="_blank" title="Instagram"><i class="zmdi zmdi-instagram"></i></a></li>
+
+                    <li><a class="bg--facebook" href="https://www.facebook.com/devitems/?ref=bookmarks" target="_blank" title="Facebook"><i class="zmdi zmdi-facebook"></i></a></li>
+
+                    <li><a class="bg--googleplus" href="https://plus.google.com/" target="_blank" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a></li>
+
+                    <li><a class="bg--google" href="#" target="_blank" title="Google"><i class="zmdi zmdi-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Offset MEnu -->
+    <!-- Start Cart Panel -->
+    <div class="shopping__cart">
+        <div class="shopping__cart__inner">
+            <div class="offsetmenu__close__btn">
+                <a href="#"><i class="zmdi zmdi-close"></i></a>
+            </div>
+            <div class="shp__cart__wrap">
+                <div class="shp__single__product">
+                    <div class="shp__pro__thumb">
+                        <a href="#">
+                            <img src="images/product/sm-img/1.jpg" alt="product images">
+                        </a>
+                    </div>
+                    <div class="shp__pro__details">
+                        <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
+                        <span class="quantity">QTY: 1</span>
+                        <span class="shp__price">$105.00</span>
+                    </div>
+                    <div class="remove__btn">
+                        <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
+                    </div>
+                </div>
+                <div class="shp__single__product">
+                    <div class="shp__pro__thumb">
+                        <a href="#">
+                            <img src="images/product/sm-img/2.jpg" alt="product images">
+                        </a>
+                    </div>
+                    <div class="shp__pro__details">
+                        <h2><a href="product-details.html">Brone Candle</a></h2>
+                        <span class="quantity">QTY: 1</span>
+                        <span class="shp__price">$25.00</span>
+                    </div>
+                    <div class="remove__btn">
+                        <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
+                    </div>
+                </div>
+            </div>
+            <ul class="shoping__total">
+                <li class="subtotal">Subtotal:</li>
+                <li class="total__price">$130.00</li>
+            </ul>
+            <ul class="shopping__btn">
+                <li><a href="cart.html">View Cart</a></li>
+                <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Cart Panel -->
+</div>
+<!-- End Offset Wrapper -->
+<!-- Start Bradcaump area -->
+<div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
+    <div class="ht__bradcaump__wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bradcaump__inner text-center">
+                        <h2 class="bradcaump-title">Product Details</h2>
+                        <nav class="bradcaump-inner">
+                            <a class="breadcrumb-item" href="index.html">Home</a>
+                            <span class="brd-separetor">/</span>
+                            <span class="breadcrumb-item active">Product Details</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Product Details -->
+<section class="htc__product__details pt--120 pb--100 bg__white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6 col-sm-12">
+                <div class="product__details__container d-flex">
+                    <!-- Start Small images -->
+                    <ul class="nav product__small__images" >
+                        <li role="presentation" class="pot-small-img">
+                            <a class="active" href="#img-tab-1" >
+                                <img style="width:500px" src="~/img/products/@Model.CoverImage" alt="small-image">
+                            </a>
+                        </li>
+                        @foreach (var item in Model.Images?.Select(x => x.ImageUrl) ?? [])
+                        {
+                            <li role="presentation" class="pot-small-img d-flex">
+                                <a class="active">
+                                    <img style="width:200px" src="~/img/products/@item" alt="small-image">
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                    <!-- End Small images -->
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-sm-12 smt-30 xmt-30">
+                <div class="htc__product__details__inner">
+                    <div class="pro__detl__title">
+                        <h2>@Model.ProductName</h2>
+                    </div>
+                    <form asp-action="Rating" method="get">
+                        <input name="ProductId" value="@Model.Id" type="hidden" />
+                        <input name="rating" value="@ViewBag.Rating" type="number" min="1" max="5" />
+                        <button type="submit" class="btn btn-link">Rate</button>
+                    </form>
+                    <div class="pro__dtl__rating">
+                        <ul class="pro__rating">
+                            @for (int i = 0; i < Math.Ceiling(rating); i++)
+                            {
+                                <li><span class="ti-star"></span></li>
+                            }
+                            (@rating)
+                        </ul>
+                        <span class="rat__qun">(Based on @Model.ProductRatings.Count Ratings)</span>
+                    </div>
+                    <div class="pro__details">
+                        <p>@Model.ProductDescription </p>
+                    </div>
+                    <ul class="pro__dtl__prize">
+                        <li class="old__prize">$@Model.SellPrice</li>
+                        <li>$@Model.CostPrice</li>
+                    </ul>                
+                                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Product Details -->
+<!-- Start Product tab -->
+<section class="htc__product__details__tab bg__white pb--120">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12">
+                <ul class="nav product__deatils__tab mb--60" role="tablist">
+                    <li role="presentation" class="active">
+                        <a class="active" href="#description" role="tab" data-bs-toggle="tab">Description</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#sheet" role="tab" data-bs-toggle="tab">Data sheet</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#reviews" role="tab" data-bs-toggle="tab">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product__details__tab__content">
+                    <!-- Start Single Content -->
+                    <div role="tabpanel" id="description" class="product__tab__content active">
+                        <div class="product__description__wrap">
+                            <div class="product__desc">
+                                <h2 class="title__6">Details</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis noexercit ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+                            </div>
+                            <div class="pro__feature">
+                                <h2 class="title__6">Features</h2>
+                                <ul class="feature__list">
+                                    <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse</a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Irure dolor in reprehenderit in voluptate velit esse</a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Sed do eiusmod tempor incididunt ut labore et </a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Nisi ut aliquip ex ea commodo consequat.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Content -->
+                    <!-- Start Single Content -->
+                    <div role="tabpanel" id="sheet" class="product__tab__content">
+                        <div class="pro__feature">
+                            <h2 class="title__6">Data sheet</h2>
+                            <ul class="feature__list">
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Duis aute irure dolor in reprehenderit in voluptate velit esse</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Irure dolor in reprehenderit in voluptate velit esse</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Irure dolor in reprehenderit in voluptate velit esse</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Sed do eiusmod tempor incididunt ut labore et </a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Sed do eiusmod tempor incididunt ut labore et </a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Nisi ut aliquip ex ea commodo consequat.</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-play-circle"></i>Nisi ut aliquip ex ea commodo consequat.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Single Content -->
+                    <!-- Start Single Content -->
+                    <div role="tabpanel" id="reviews" class="product__tab__content">
+                        <div class="review__address__inner">
+                            <!-- Start Single Review -->
+                           @foreach (var item in Model.Comments)
+                            {
+                                <div class="pro__review">
+                                    <div class="review__thumb">
+                                        <img style="width:100px;" src="~/img/users/@item.User.ProfileImageUrl" alt="review images">
+                                    </div>
+                                    <div class="review__details">
+                                        <div class="review__info">
+                                            <h4><a href="#">@item.User.UserName</a></h4>
+                                            <ul class="rating">
+                                                @* <li><i class="zmdi zmdi-star"></i></li>
+                                                <li><i class="zmdi zmdi-star"></i></li>
+                                                <li><i class="zmdi zmdi-star"></i></li>
+                                                <li><i class="zmdi zmdi-star-half"></i></li>
+                                                <li><i class="zmdi zmdi-star-half"></i></li> *@
+                                            </ul>
+                                            <div class="rating__send">
+                                                @* <a href="#"><i class="zmdi zmdi-mail-reply"></i></a>
+                                                <a href="#"><i class="zmdi zmdi-close"></i></a> *@
+                                            </div>
+                                        </div>
+                                        <div class="review__date">
+                                            <span>@item.CreatedTime</span>
+                                        </div>
+                                        <p>@item.Comments</p>
+                                    </div>
+                                </div>
+                            }
+                            <!-- End Single Review -->
+                            
+                        </div>
+                        <!-- Start RAting Area -->
+                        <div class="rating__wrap">
+                            <h2 class="rating-title">Write  A review</h2>                                                       
+                        </div>
+                        <!-- End RAting Area -->
+                        <div class="review__box">
+                            @if (User.Identity!.IsAuthenticated)
+                            {
+
+                                <form method="get" enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <input type="hidden" name="productId" value="@Model.Id" />
+                                    </div>
+                                    <div class="form-group">
+                                        <h2>Comment</h2>
+                                        <textarea name="Comment" placeholder="Write your review"
+                                                  style="width: 100%; height: 150px; padding: 10px; font-size: 14px;
+           border: 1px solid #ccc; border-radius: 5px; resize: vertical;
+           outline: none; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        </textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" asp-action="Comment" asp-controller="Product">Submit</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <div class="feedback-area">
+                                    <h2 class="heading">Comment yazmaq ucun hesaba daxil olun</h2>
+                                    <form method="get" enctype="multipart/form-data">
+                                        <button type="submit" class="btn btn-primary" asp-action="Login" asp-controller="Account">Hesaba Daxil olun</button>
+                                    </form>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <!-- End Single Content -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Product tab -->

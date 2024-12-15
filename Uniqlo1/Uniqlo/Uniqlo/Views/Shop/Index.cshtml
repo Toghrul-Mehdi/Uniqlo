@@ -1,0 +1,241 @@
+﻿@using Uniqlo.ViewModels.Common
+@model HomeVM
+@section styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+<!-- Start Bradcaump area -->
+<div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
+    <div class="ht__bradcaump__wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bradcaump__inner text-center">
+                        <h2 class="bradcaump-title">Shop Page</h2>
+                        <nav class="bradcaump-inner">
+                            <a class="breadcrumb-item" href="index.html">Home</a>
+                            <span class="brd-separetor">/</span>
+                            <span class="breadcrumb-item active">Shop Page</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Our Product Area -->
+<section class="htc__product__area shop__page ptb--130 bg__white">
+    <div class="container">
+        <div class="htc__product__container">
+            <!-- Start Product MEnu -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="filter__menu__container">
+                        <div class="product__menu">
+                            <button data-filter="*" class="is-checked">All</button>
+                            @foreach (var item in Model.Categories)
+                            {
+                                <button data-filter=".cat--1">@item.CategoryName</button>
+                            }
+                        </div>
+                        <div class="filter__box">
+                            <a class="filter__menu" href="#">filter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Filter Menu -->
+            <div class="filter__wrap">
+                <div class="filter__cart">
+                    <div class="filter__cart__inner">
+                        <div class="filter__menu__close__btn">
+                            <a href="#"><i class="zmdi zmdi-close"></i></a>
+                        </div>
+                        <div class="filter__content">
+                            <!-- Start Single Content -->
+                            <div class="fiter__content__inner">
+                                <div class="single__filter">
+                                    <h2>Sort By</h2>
+                                    <ul class="filter__list">
+                                        <li><a href="#default">Default</a></li>
+                                        <li><a href="#accessories">Accessories</a></li>
+                                        <li><a href="#bags">Bags</a></li>
+                                        <li><a href="#chair">Chair</a></li>
+                                        <li><a href="#decoration">Decoration</a></li>
+                                        <li><a href="#fashion">Fashion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single__filter">
+                                    <h2>Size</h2>
+                                    <ul class="filter__list">
+                                        <li><a href="#xxl">XXL</a></li>
+                                        <li><a href="#xl">XL</a></li>
+                                        <li><a href="#x">X</a></li>
+                                        <li><a href="#l">L</a></li>
+                                        <li><a href="#m">M</a></li>
+                                        <li><a href="#s">S</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single__filter">
+                                    <h2>Tags</h2>
+                                    <ul class="filter__list">
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                        <li><a href="#">Chair</a></li>
+                                        <li><a href="#">Decoration</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single__filter">
+                                    <h2>Price</h2>
+                                    <ul class="filter__list">
+                                        <li><a href="#">$0.00 - $50.00</a></li>
+                                        <li><a href="#">$50.00 - $100.00</a></li>
+                                        <li><a href="#">$100.00 - $150.00</a></li>
+                                        <li><a href="#">$150.00 - $200.00</a></li>
+                                        <li><a href="#">$300.00 - $500.00</a></li>
+                                        <li><a href="#">$500.00 - $700.00</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single__filter">
+                                    <h2>Color</h2>
+                                    <ul class="filter__list sidebar__list">
+                                        <li class="black"><a href="#"><i class="zmdi zmdi-circle"></i>Black</a></li>
+                                        <li class="blue"><a href="#"><i class="zmdi zmdi-circle"></i>Blue</a></li>
+                                        <li class="brown"><a href="#"><i class="zmdi zmdi-circle"></i>Brown</a></li>
+                                        <li class="red"><a href="#"><i class="zmdi zmdi-circle"></i>Red</a></li>
+                                        <li class="orange"><a href="#"><i class="zmdi zmdi-circle"></i>Orange</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Filter Menu -->
+            <!-- End Product MEnu -->
+            <div class="row product__list">
+                <!-- Start Single Product -->
+                @foreach (var item in Model.Products)
+                {
+                    <div class="col-md-4 single__pro col-lg-3 cat--1 col-sm-12">
+                        <div class="product foo">
+                            <div class="product__inner">
+                                <div class="pro__thumb">
+                                    <a href="#">
+                                        <img src="~/img/products/@item.ImageUrl" alt="product images">
+                                    </a>
+                                </div>
+                                <div class="product__hover__info">
+                                    <ul class="product__action">                                       
+                                        <li><a title="Add TO Cart" class="addbasket" prod-id="@item.Id" ><span class="ti-shopping-cart"></span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="add__to__wishlist">
+                                    <a data-bs-toggle="tooltip" title="Add To Wishlist" class="add-to-cart" href="wishlist.html"><span class="ti-heart"></span></a>
+                                </div>
+                            </div>
+                            <div class="product__details">
+                                <h2><a href="product-details.html">@item.Name</a></h2>
+                                <ul class="product__price">
+                                   @if(item.Discount>0){
+                                        <li class="old__price">@item.Price</li>
+                                        <li class="new__price">@(item.Price - (item.Price * item.Discount)/100) USD</li>
+                                   }
+                                   else{
+                                        <li class="new__price">@item.Price USD</li>
+                                   }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <!-- End Single Product -->                
+            </div>
+            <!-- Start Load More BTn -->
+            <div class="row mt--60">
+                <div class="col-md-12">
+                    <div class="htc__loadmore__btn">
+                        <a href="#">load more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Load More BTn -->
+        </div>
+    </div>
+</section>
+<!-- End Our Product Area -->
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        $('.addbasket').click(function(){
+                  fetch('/Shop/AddBasket/'+$(this).attr('prod-id'))
+                  .then(x=>{
+                      if(x.ok)
+                      {
+                                  Command: toastr["success"]("Məhsul səbətə əlavə olundu")
+
+        toastr.options = {
+          "closeButton": false,
+          "debug": false,
+          "newestOnTop": false,
+          "progressBar": false,
+          "positionClass": "toast-top-right",
+          "preventDuplicates": false,
+          "onclick": null,
+          "showDuration": "300",
+          "hideDuration": "1000",
+          "timeOut": "5000",
+          "extendedTimeOut": "1000",
+          "showEasing": "swing",
+          "hideEasing": "linear",
+          "showMethod": "fadeIn",
+          "hideMethod": "fadeOut"
+        }
+                      }
+                  })
+              })
+
+    </script>
+    <script>
+         $('.deletebasket').click(function(){
+            const prodId = $(this).attr('prod-id');
+            const quantity = $(this).closest('.shp__single__product').find('.quantity').text().replace('QTY: ', '').trim();
+
+            fetch('/Shop/DeleteBasket/'+$(this).attr('prod-id'))
+                  .then(x=>{
+                      if(x.ok)
+                      {
+                          if(parseInt(quantity)===1){
+                              $(`[prod-id='${prodId}']`).remove();
+                          };
+                          Command: toastr["success"]("Məhsul səbətdən silindi")
+
+                toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "hideDuration": "300",
+            "timeOut": "1000",
+            "showDuration": "300",
+            "extendedTimeOut": "0",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+
+
+                      }
+                  })
+        })
+    </script>
+}

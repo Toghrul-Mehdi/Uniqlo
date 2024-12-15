@@ -1,6 +1,4 @@
-﻿using Uniqlo.ViewModels.Category;
-using Uniqlo.ViewModels.Product;
-using Uniqlo.ViewModels.Slider;
+﻿using Uniqlo.ViewModel;
 
 namespace Uniqlo.ViewModels.Common
 {
@@ -8,6 +6,7 @@ namespace Uniqlo.ViewModels.Common
     {
         public IEnumerable<SliderItemVM> Sliders { get; set; }
         public IEnumerable<ProductItemVM> Products { get; set; }
+        public IEnumerable<CategoryItemVM> Categories { get; set; }
         
     }
 }

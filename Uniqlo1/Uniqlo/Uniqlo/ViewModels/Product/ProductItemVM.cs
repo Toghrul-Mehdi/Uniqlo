@@ -1,4 +1,4 @@
-﻿namespace Uniqlo.ViewModels.Product
+﻿namespace Uniqlo.ViewModel
 {
     public class ProductItemVM
     {
@@ -8,5 +8,6 @@
         public decimal Price { get; set; }
         public int Discount { get; set; }
         public bool IsInStock { get; set; }
+        public int CategoryID { get; set; }
     }
 }

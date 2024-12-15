@@ -501,3 +501,8 @@ C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bi
 C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\obj\Debug\net8.0\staticwebassets\msbuild.Uniqlo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Victus\OneDrive\İş masası\Codecademy\Uniqlo\Uniqlo1\Uniqlo\Uniqlo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
