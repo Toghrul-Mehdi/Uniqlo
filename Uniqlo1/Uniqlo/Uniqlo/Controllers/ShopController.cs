@@ -5,6 +5,9 @@ using Uniqlo.ViewModel;
 using Uniqlo.ViewModels.Common;
 using Uniqlo.DataAccess;
 using System.Text.Json;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
+using Uniqlo.Models;
+using System.Security.Claims;
 
 namespace Uniqlo.Controllers
 {
@@ -36,18 +39,52 @@ namespace Uniqlo.Controllers
         }
         public async Task<IActionResult> AddBasket(int id)
         {
-            var basketItems = JsonSerializer.Deserialize<List<BasketProductItemVM>>(Request.Cookies["basket"] ?? "[]");
-
-            var item = basketItems.FirstOrDefault(x => x.Id == id);
-            if (item == null)
+            if (!User.Identity!.IsAuthenticated)
             {
-                item = new BasketProductItemVM(id);
-                basketItems.Add(item);
-            }
-            item.Count++;
-            Response.Cookies.Append("basket", JsonSerializer.Serialize(basketItems));
+                var basketItems = JsonSerializer.Deserialize<List<BasketProductItemVM>>(Request.Cookies["basket"] ?? "[]");
 
-            return RedirectToAction(nameof(Index));
+                var item = basketItems!.FirstOrDefault(x => x.Id == id);
+                if (item == null)
+                {
+                    item = new BasketProductItemVM(id);
+                    basketItems!.Add(item);
+                }
+                item.Count++;
+                Response.Cookies.Append("basket", JsonSerializer.Serialize(basketItems));
+
+                return RedirectToAction(nameof(Details), new { Id = id });
+            }
+            else
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return BadRequest();
+                var product = await _context.Products.FindAsync(id);
+                if (product == null)
+                    return NotFound();
+
+                var BasketItem = await _context.Baskets
+                    .FirstOrDefaultAsync(x=>x.UserId == userId && x.ProductId==id);
+                if(BasketItem == null)
+                {
+                    var baskets = new Basket
+                    {
+                        UserId = userId,
+                        ProductId = id,
+                        Count = 1,
+                        Subtotal = product.SellPrice
+                    };
+                    _context.Baskets.Add(baskets);
+                }
+                else
+                {
+                    BasketItem.Count++;
+                    BasketItem.Subtotal += product.SellPrice;
+                }
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Details), new { Id = id });
+
+            }
         }
 
         public async Task<IActionResult> DeleteBasket(int id)

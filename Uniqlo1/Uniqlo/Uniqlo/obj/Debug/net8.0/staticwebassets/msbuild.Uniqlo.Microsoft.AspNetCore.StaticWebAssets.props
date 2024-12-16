@@ -37668,8 +37668,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y15zh16jzh</Fingerprint>
-      <Integrity>qoYoWbw9pNXzhLUVA/9YeLiJ7AU0xUbikl1re4Z3zdQ=</Integrity>
+      <Fingerprint>ekgj7y9hcz</Fingerprint>
+      <Integrity>YiZTteW0ejbiTFB2ok3FRQLY4x/rXE2JJJZkSJsZLiU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\samir1.jpg'))</OriginalItemSpec>

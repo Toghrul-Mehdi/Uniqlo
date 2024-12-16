@@ -28,16 +28,7 @@ namespace Uniqlo.Controllers
                .Include(x => x.Comments)
                .ThenInclude(c => c.User)
                .FirstOrDefaultAsync();
-            if (data == null) return NotFound();
-            ProductDetailsVM vm = new ProductDetailsVM
-            {
-                ProductName = data.ProductName,
-                ProductDescription = data.ProductDescription,
-                SellPrice = data.SellPrice,
-                Discount = data.Discount,
-                CoverImageUrl = data.CoverImage,
-                OtherFileUrls = data.Images
-            };
+            if (data == null) return NotFound();            
             ViewBag.Rating = 5;
             if (User.Identity?.IsAuthenticated ?? false)
             {
@@ -74,7 +65,7 @@ namespace Uniqlo.Controllers
         }
 
         public async Task<IActionResult> Comment(int productId, CommentVM vm)
-        {
+            {
             string userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)!.Value;
 
             var data = await _context.Comments.Where(x => x.UserId == userId && x.ProductId == productId).FirstOrDefaultAsync();

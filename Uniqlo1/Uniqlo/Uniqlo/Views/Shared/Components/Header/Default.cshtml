@@ -157,22 +157,26 @@
             <div class="shp__cart__wrap">
                 @foreach (var item in Model)
                 {
-                        <div class="shp__single__product" prod-id="@item.Id">
-                        <div class="shp__pro__thumb">
-                            <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
-                                <img src="~/img/products/@item.ImageUrl" alt="product images">
-                            </a>
-                        </div>
-                        <div class="shp__pro__details">
-                            <h2><a href="product-details.html">@item.Name</a></h2>
-                            <span class="quantity">QTY: @item.Count</span>
-                            <span class="shp__price">$@(item.SellPrice  * item.Count)</span>
-                        </div>
-                        <div class="remove__btn">
-                            <a class="deletebasket" prod-id="@item.Id" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                        </div>
-                    </div>
-                    SubTotal += item.Count * item.SellPrice;
+                    @if(User.Identity!.IsAuthenticated)
+                    {
+                            <div class="shp__single__product" prod-id="@item.Id">
+                                <div class="shp__pro__thumb">
+                                    <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
+                                        <img src="~/img/products/@item.ImageUrl" alt="product images">
+                                    </a>
+                                </div>
+                                <div class="shp__pro__details">
+                                    <h2><a href="product-details.html">@item.Name</a></h2>
+                                    <span class="quantity">QTY: @item.Count</span>
+                                    <span class="shp__price">$@(item.SellPrice * item.Count)</span>
+                                </div>
+                                <div class="remove__btn">
+                                    <a class="deletebasket" prod-id="@item.Id" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
+                                </div>
+                            </div>
+                        SubTotal += item.Count * item.SellPrice;
+                    }
+                        
                 }
                 </div>
                 <ul class="shoping__total">

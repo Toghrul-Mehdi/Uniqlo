@@ -17,5 +17,6 @@ namespace Uniqlo.DataAccess
         public DbSet<ProductRatings> ProductRatings { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
     }
 }

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|c:\\users\\victus\\onedrive\\\u0130\u015F masas\u0131\\codecademy\\uniqlo\\uniqlo1\\uniqlo\\uniqlo\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C33EB299-1D5E-45BC-8713-243D0BA63E38}|Uniqlo\\Uniqlo.csproj|solutionrelative:uniqlo\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Uniqlo\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Uniqlo\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAuwBsBAABAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Uniqlo\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Uniqlo\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAAJ8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:55:13.58Z",
+              "WhenOpened": "2024-12-16T19:52:16.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "Uniqlo\\Controllers\\ShopController.cs",
               "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Controllers\\ShopController.cs",
               "RelativeToolTip": "Uniqlo\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T20:29:27.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqlo\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victus\\OneDrive\\\u0130\u015F masas\u0131\\Codecademy\\Uniqlo\\Uniqlo1\\Uniqlo\\Uniqlo\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Uniqlo\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T20:28:14.751Z",
+              "WhenOpened": "2024-12-16T19:28:43.607Z",
               "EditorCaption": ""
             }
           ]
